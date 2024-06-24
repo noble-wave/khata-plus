@@ -1,0 +1,17 @@
+.container {
+  margin: 15px 15px 15px 15px;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  // fxLayoutAlign="end center"
+  gap: 20px;
+}

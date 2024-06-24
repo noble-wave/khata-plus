@@ -1,0 +1,14 @@
+<div class="container">
+
+  <div class="boxContainer">
+    <app-input [form]="form" type="number" label="Amount" name="netAmount"></app-input>
+    <div class="checkbox">
+      <mat-checkbox class="example-margin" (change)="udhar($event.checked)">Udhar</mat-checkbox>
+    </div>
+    <button mat-fab extended color="primary">
+      <!-- <mat-icon>favorite</mat-icon> -->
+      Sell
+    </button>
+  </div>
+
+</div>

@@ -1,0 +1,12 @@
+<div class="container">
+
+  <div class="boxContainer">
+    <app-input [form]="form" type="string" label="Customer Name" name="customerName"></app-input>
+    <app-input [form]="form" type="number" label="Phone No." name="phoneNumber"></app-input>
+    <app-input [form]="form" type="email" label="Email" name="email"></app-input>
+    <app-input [form]="form" type="string" label="Address" name="address"></app-input>
+    <app-input [form]="form" type="number" label="Pincode" name="pinCode"></app-input>
+    <button mat-flat-button color="primary" (click)="save()">Save</button>
+  </div>
+
+</div>
